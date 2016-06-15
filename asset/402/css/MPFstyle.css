@@ -569,7 +569,8 @@ h5 {
 	font-family: "Old Standard TT", Georgia, Serif;
 	font-weight: bold;
 	/*letter-spacing: 0.5px;*/
-	color: #fff;
+	color: #333333;
+	font-size:1.1em;
 }
 .navbar-default .nav li a:hover, .navbar-default .nav li a:focus {
 	outline: 0;

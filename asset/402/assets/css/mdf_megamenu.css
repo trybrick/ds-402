@@ -74,7 +74,7 @@ a.navbar-brand img{
 	padding: 0;
 }
 #mdf_menu .menu-el > a{
-	color: #333333;
+	color: #fff;
 	transition: all 0.32s;
 	-webkit-transition: background 0.35s, color 0.4s;
 	-moz-transition: background 0.35s, color 0.4s;
