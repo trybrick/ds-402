@@ -123,6 +123,12 @@ col-md-6 ng-scope {
 	margin-right: 5px;
 }
 }
+
+@media (max-width: 1200px) {
+	section#portfolio {
+		margin: 0px !important;	
+	}
+}
 /*   You may resume your regularly scheduled styling below this line  */
 
 html, body {
