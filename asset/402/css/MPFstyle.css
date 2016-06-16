@@ -625,9 +625,8 @@ h5 {
 	margin-top: 20%;
 }
 .navbar-default {
-	/*padding: 0px 0px 5px 0px;*/
 	border-bottom: 10px solid #043522;
-	background-color: #e47937;
+	background-color: rgba(228, 121, 55, .6);
 	-webkit-transition: padding .3s;
 	-moz-transition: padding .3s;
 	transition: padding .3s;
