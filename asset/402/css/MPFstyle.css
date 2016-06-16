@@ -150,6 +150,15 @@ body {
 body.modal-open {
 	overflow: auto;
 }
+
+.panel-default .panel-heading {
+	background: #e47937;
+	color: #fff;
+	border-bottom: 5px solid #043522;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
 a:hover {
 /*font-weight: normal*/
 }
@@ -459,12 +468,11 @@ a:hover, a:focus, a:active, a.active {
 	color: #630502;
 }
 h1, h2, h3, h4, h6 {
-	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Old Standard TT", Georgia, Serif;
 	font-weight: 700;
 }
 h5 {
-	text-transform: uppercase;
-	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Old Standard TT", Georgia, Serif;
 	font-weight: 500;
 }
 .img-centered {
@@ -478,8 +486,7 @@ h5 {
 }
 .btn-primary {
 	border-color: #fed136;
-	text-transform: uppercase;
-	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Old Standard TT", Georgia, Serif;
 	font-weight: 700;
 	color: #fff;
 	background-color: #fed136;
@@ -527,7 +534,7 @@ h5 {
 	padding: 20px 40px;
 	border-radius: 3px;
 	text-transform: uppercase;
-	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Old Standard TT", Georgia, Serif;
 	font-size: 18px;
 	font-weight: 500;
 	color: #fff;
@@ -544,7 +551,7 @@ h5 {
 	background-size: 100% 100%;
 }
 .navbar-default .navbar-brand {
-	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Old Standard TT", Georgia, Serif;
 	font-weight: 700;
 	color: #333333;
 }
@@ -1430,6 +1437,7 @@ h1.Cob-section-heading {
 	-webkit-text-shadow: 4px 4px 5px rgb(0, 0, 0);
 	text-transform: none;
 	opacity: 0.8;
+	font-family: Lobster;
 }
 h1.Cob-section-heading2 {
 	position: relative;
@@ -1441,6 +1449,7 @@ h1.Cob-section-heading2 {
 	-webkit-text-shadow: 4px 4px 5px rgb(0, 0, 0);
 	text-transform: none;
 	opacity: 0.8;
+	font-family: Lobster;
 }
 h1.Cob-section-heading2a {
 	position: relative;
@@ -1452,6 +1461,7 @@ h1.Cob-section-heading2a {
 	-webkit-text-shadow: 4px 4px 5px rgb(0, 0, 0);
 	text-transform: none;
 	opacity: 0.8;
+	font-family: Lobster;
 }
 h1.Cob-section-heading_small {
 	position: relative;
@@ -1463,6 +1473,7 @@ h1.Cob-section-heading_small {
 	-webkit-text-shadow: 4px 4px 5px rgb(0, 0, 0);
 	text-transform: none;
 	opacity: 0.8;
+	font-family: Lobster;
 }
 h4.about-heading {
 	position: relative;
@@ -1472,8 +1483,7 @@ h4.about-heading {
 	-moz-text-shadow: 2px 2px 1px rgb(0, 0, 0);
 	-webkit-text-shadow: 2px 2px 1px rgb(0, 0, 0);
 	opacity: 0.8;
-	font-family: "Open Sans", Helvetica, Arial, sans-serif;
-	font-style: italic;
+	font-family: "Old Standard TT", Georgia, serif;
 }
 h4.about-heading_small {
 	position: relative;
@@ -1483,8 +1493,7 @@ h4.about-heading_small {
 	-moz-text-shadow: 2px 2px 1px rgb(0, 0, 0);
 	-webkit-text-shadow: 2px 2px 1px rgb(0, 0, 0);
 	opacity: 0.8;
-	font-family: "Open Sans", Helvetica, Arial, sans-serif;
-	font-style: italic;
+	font-family: "Old Standard TT", Georgia, serif;
 }
 .DesktopDownArrow {
 	display: inline;
