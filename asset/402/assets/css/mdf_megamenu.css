@@ -144,19 +144,18 @@ a.navbar-brand img{
 #mdf_menu div.mdf_sub_wrap a,
 #mdf_menu ul.mdf_child_menu li a{
 	display: inline-block;
-	-webkit-transition: all 0.4s ease-in;
-	-moz-transition: all 0.4s ease-in;
-	-ms-transition: all 0.4s ease-in;
-	-o-transition: all 0.4s ease-in;
-	transition: all 0.4s ease-in;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-ms-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
 }
 #mdf_menu ul.mdf_child_menu.dropdown a{
 	display: block;
 }
 #mdf_menu div.mdf_sub_wrap a:hover,
 #mdf_menu ul.mdf_child_menu a:hover{
-	color: #fff;
-	background: #e47937;
+	color: #e47937;
 	padding-left: 25px !important;
 }
 .mdf_flip{
@@ -207,7 +206,7 @@ a.navbar-brand img{
 }
 #mdf_menu ul li .mdf_sub_wrap,
 #mdf_menu ul li .dropdown{
-	background: ##043522;
+	background: #043522;
 	border-bottom-left-radius:15px;
 	border-bottom-right-radius: 15px;
 }
