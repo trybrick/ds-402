@@ -51,8 +51,8 @@ header.ng-scope:before {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background-image: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1));
-	color: rgba(255,255,255,0);
+	background-image: linear-gradient(to bottom, rgba(4,53,34,0), rgba(4,53,34,1));
+	color: rgba(4,53,34,0);
 	font-size: 50px;
 }
 }
@@ -471,7 +471,7 @@ h5 {
 	margin: 0 auto;
 }
 .bg-light-gray {
-	background-color: rgba(255,255,255,.9);
+	background-color: rgba(4,53,34,.9);
 }
 .bg-darkest-gray {
 	background-color: #222;
@@ -940,26 +940,36 @@ section#contact .text-danger {
 }
 footer {
 	text-align: center;
-	background-color: #eee;
-	border-top-color: #ddd;
-	border-top-style: solid;
-	border-top-width: thin;
+	background-color: #043522;
+	color: #fff;
 }
 footer span.copyright {
 	text-transform: uppercase;
 	text-transform: none;
-	color: #888;
+	color: #fff;
 	font-weight: 400;
 	font-size: 10px;
 }
 footer span.copyright a {
-	color: #888;
+	color: #fff;
 	border-bottom: 1px dotted;
 }
 footer span.copyright a:hover {
-	color: #555;
+	color: #fff;
 	text-decoration: none;
 }
+footer a {
+	color: #fff;
+	transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-webkit-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	-ms-transition: all .5s ease;	
+}
+footer a:hover {
+	color: #e47937;	
+}
+
 ul.social-buttons {
 	margin-bottom: 0;
 }
@@ -972,13 +982,13 @@ ul.social-buttons li a {
 	line-height: 40px;
 	outline: 0;
 	color: #fff;
-	background-color: #c4c4c4;
+	background-color: #31594a;
 	-webkit-transition: all .3s;
 	-moz-transition: all .3s;
 	transition: all .3s;
 }
 ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li a:active {
-	background-color: #8b1e1a;
+	background-color: #e47937;
 }
 .btn:focus, .btn:active, .btn.active, .btn:active:focus {
 	outline: 0;
@@ -1104,14 +1114,7 @@ body {
 	font-weight: bold;
 }
 #inside-socialBar {
-	background: rgb(255,255,255);
-	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(243,243,243,1) 50%, rgba(237,237,237,1) 51%, rgba(255,255,255,1) 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(50%, rgba(243,243,243,1)), color-stop(51%, rgba(237,237,237,1)), color-stop(100%, rgba(255,255,255,1)));
-	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(243,243,243,1) 50%, rgba(237,237,237,1) 51%, rgba(255,255,255,1) 100%);
-	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(243,243,243,1) 50%, rgba(237,237,237,1) 51%, rgba(255,255,255,1) 100%);
-	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(243,243,243,1) 50%, rgba(237,237,237,1) 51%, rgba(255,255,255,1) 100%);
-	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(243,243,243,1) 50%, rgba(237,237,237,1) 51%, rgba(255,255,255,1) 100%);
- filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 );
+	background: #043522;
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
@@ -1121,10 +1124,10 @@ body {
 	border-radius: 10px 10px 0px 0px;
 }
 #inside-socialBar a {
-	color: #999;
+	color: #fff;
 }
 #inside-socialBar a:hover {
-	color: #8b1e1a;
+	color: #ef7937;
 }
 /**********************Megamenu************************/
 
