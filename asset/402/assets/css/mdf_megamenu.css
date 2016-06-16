@@ -435,6 +435,7 @@ a.navbar-brand img{
 }
 input{
         top: 0px!important;
+		border-radius:5px;
 }
 .tabs.vertical{
     float: none;

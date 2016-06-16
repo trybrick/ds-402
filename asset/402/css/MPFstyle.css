@@ -483,6 +483,7 @@ a:hover, a:focus, a:active, a.active {
 h1, h2, h3, h4, h6 {
 	font-family: Lobster;
 	font-weight: normal;
+	font-size: 1.8em;
 }
 h5 {
 	font-family: Lobster;
@@ -1232,6 +1233,7 @@ p#InnerTop {
 	border-width: thin;
 	border-color: #CCC;
 	margin-bottom: 10px;
+	border-radius: 10px;
 }
 /* Brandon's starting to code now!! */
 
@@ -1288,6 +1290,7 @@ a.button {
 	-ms-transition: all .5s ease;
 	font-family: "Old Standard TT", Georgia, Serif;
 	font-weight:bold;
+	font-size: 1.1em;
 }
 a.button:hover {
 	background-color: #e47937;
@@ -1589,6 +1592,7 @@ a.buttonForce {
     -ms-transition: all .5s ease;
 	font-family: "Old Standard TT", Georgia, Serif;
 	font-weight:bold;
+	font-size: 1.1em;
 }
 a.buttonForce:hover {
 	background-color: #e47937;
