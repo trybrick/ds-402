@@ -158,6 +158,9 @@ body.modal-open {
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
 }
+.panel-title {
+	font-size: 1.5em;	
+}
 .btn {
 	background: #043522;	
 }
@@ -1284,6 +1287,7 @@ a.button {
 	-o-transition: all .5s ease;
 	-ms-transition: all .5s ease;
 	font-family: "Old Standard TT", Georgia, Serif;
+	font-weight:bold;
 }
 a.button:hover {
 	background-color: #e47937;
@@ -1584,6 +1588,7 @@ a.buttonForce {
     -o-transition: all .5s ease;
     -ms-transition: all .5s ease;
 	font-family: "Old Standard TT", Georgia, Serif;
+	font-weight:bold;
 }
 a.buttonForce:hover {
 	background-color: #e47937;
