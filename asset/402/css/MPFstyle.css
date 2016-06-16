@@ -315,6 +315,7 @@ div.intro-text a:link {
 	font-weight: bold !important;
 	text-decoration: none !important;
 	border: 0 !important;
+	color: #fff;
 }
 section#portfolio {
 	padding: 0px 15px;
@@ -568,7 +569,7 @@ h5 {
 	font-family: "Old Standard TT", Georgia, Serif;
 	font-weight: bold;
 	/*letter-spacing: 0.5px;*/
-	color: #333333;
+	color: #fff;
 	font-size:1.1em;
 }
 .navbar-default .nav li a:hover, .navbar-default .nav li a:focus {
@@ -936,6 +937,7 @@ footer {
 	text-align: center;
 	background-color: #043522;
 	color: #fff;
+	font-family: "Old Standard TT", Georgia, serif;
 }
 footer span.copyright {
 	text-transform: uppercase;
@@ -951,6 +953,18 @@ footer span.copyright a {
 footer span.copyright a:hover {
 	color: #fff;
 	text-decoration: none;
+	box-shadow: 0px 0px 10px -5px #fff;
+	-moz-box-shadow: 0px 0px 10px -5px #fff;
+	-webkit-box-shadow: 0px 0px 10px -5px #fff;
+	-o-box-shadow: 0px 0px 10px -5px #fff;
+	-ms-box-shadow: 0px 0px 10px -5px #fff;
+}
+a {
+		transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-webkit-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	-ms-transition: all .5s ease;		
 }
 footer a {
 	color: #fff;

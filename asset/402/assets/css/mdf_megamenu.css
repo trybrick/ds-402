@@ -83,9 +83,12 @@ a.navbar-brand img{
 }
 #mdf_menu .menu-el > a:hover,
 #mdf_menu .menu-el:hover > a{
-	background: #f8f8f8;
-	color: #25363d;
-	border-radius: 0;
+	background: #043522;
+	color: #fff;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
 	padding-left: 20px;
 }
 #mdf_menu ul li.active > a{
@@ -141,19 +144,20 @@ a.navbar-brand img{
 #mdf_menu div.mdf_sub_wrap a,
 #mdf_menu ul.mdf_child_menu li a{
 	display: inline-block;
-	-webkit-transition: color 0.4s, background 0.3s ease-in;
-	-moz-transition: color 0.4s, background 0.3s ease-in;
-	-ms-transition: color 0.4s, background 0.3s ease-in;
-	-o-transition: color 0.4s, background 0.3s ease-in;
-	transition: color 0.4s, background 0.3s ease-in;
+	-webkit-transition: all 0.4s ease-in;
+	-moz-transition: all 0.4s ease-in;
+	-ms-transition: all 0.4s ease-in;
+	-o-transition: all 0.4s ease-in;
+	transition: all 0.4s ease-in;
 }
 #mdf_menu ul.mdf_child_menu.dropdown a{
 	display: block;
 }
 #mdf_menu div.mdf_sub_wrap a:hover,
 #mdf_menu ul.mdf_child_menu a:hover{
-	color: #C2B69C;
-	background: #8b1e1a;
+	color: #fff;
+	background: #e47937;
+	padding-left: 25px !important;
 }
 .mdf_flip{
 	height: auto;
@@ -203,7 +207,9 @@ a.navbar-brand img{
 }
 #mdf_menu ul li .mdf_sub_wrap,
 #mdf_menu ul li .dropdown{
-	background: #f8f8f8;
+	background: ##043522;
+	border-bottom-left-radius:15px;
+	border-bottom-right-radius: 15px;
 }
 #mdf_menu ul li:hover .dropdown,
 #mdf_menu ul li:hover .mdf_fall{
@@ -226,8 +232,9 @@ a.navbar-brand img{
 }
 #mdf_menu .mdf_child_menu li{
 	display: block;
-	color: #444;
-	border-bottom:#CCC; border-bottom-style:solid; border-bottom-width:thin;
+	color: #fff;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
 }
 #mdf_menu .mdf_child_menu li a:not(.thumbnail){
 	padding: 8px 15px;
@@ -236,7 +243,9 @@ a.navbar-brand img{
 #mdf_menu .mdf_child_menu.sub-1,
 #mdf_menu .mdf_child_menu.sub-2,
 .dropdown{
-	background: #f8f8f8
+	background: ##043522;
+	border-bottom-left-radius:15px;
+	border-bottom-right-radius: 15px;
 }
 .mdf_child_menu.sub-0,
 .mdf_child_menu.sub-1,
