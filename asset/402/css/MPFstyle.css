@@ -158,9 +158,19 @@ body.modal-open {
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
 }
-
+.btn {
+	background: #043522;	
+}
+a {
+	color: #043522;
+	transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-webkit-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+}
 a:hover {
-/*font-weight: normal*/
+    color: #e47937;
 }
 #mdf_menu div.mdf_sub_wrap a, #mdf_menu ul.mdf_child_menu li a {
 	display: block !important;
@@ -209,8 +219,8 @@ a:hover {
 	background: none;
 }
 .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
-	background-color: #8b1e1a;
-	border-color: #8b1e1a;
+	background-color: #e47937;
+	border-color: #e47937;
 }
 .pagination > li > a, .pagination > li > span {
 	color: #ccc;
@@ -242,12 +252,12 @@ svg#myFlyer {
 	color: #555;
 }
 .nav-tabs li a:hover {
-	background-color: #8b1e1a;
+	background-color: #e47937;
 	color: #fff;
-	border-color: #8b1e1a;
+	border-color: #e47937;
 }
 .nav-tabs li.active {
-	color: #8b1e1a;
+	color: #043522;
 }
 img.dcircular-image {
 	width: 200px;
@@ -266,7 +276,7 @@ img.dcircular-image {
 }
 .btn-default {
 	color: #fff;
-	background-color: #8b1e1a;
+	background-color: #043522;
 	transition: all .2s ease;
 	border: 0;
 	margin: 15px 0px;
@@ -468,12 +478,12 @@ a:hover, a:focus, a:active, a.active {
 	color: #630502;
 }
 h1, h2, h3, h4, h6 {
-	font-family: "Old Standard TT", Georgia, Serif;
-	font-weight: 700;
+	font-family: Lobster;
+	font-weight: normal;
 }
 h5 {
-	font-family: "Old Standard TT", Georgia, Serif;
-	font-weight: 500;
+	font-family: Lobster;
+	font-weight: normal;
 }
 .img-centered {
 	margin: 0 auto;
@@ -581,7 +591,7 @@ h5 {
 }
 .navbar-default .nav li a:hover, .navbar-default .nav li a:focus {
 	outline: 0;
-	color: #8b1e1a;
+	color: #e47937;
 }
 .navbar-default .navbar-nav>.active>a {
 	border-radius: 0;
@@ -1257,7 +1267,7 @@ span.ProductName {
 }
 a.button {
 	color: #fff;
-	background-color: #8b1e1a;
+	background-color: #043522;
 	display: block;
 	font-weight: normal;
 	padding: 5px 10px;
@@ -1273,10 +1283,11 @@ a.button {
 	-webkit-transition: all .5s ease;
 	-o-transition: all .5s ease;
 	-ms-transition: all .5s ease;
+	font-family: "Old Standard TT", Georgia, Serif;
 }
 a.button:hover {
-	background-color: #e6e6e6;
-	color: #000;
+	background-color: #e47937;
+	color: #fff;
 	-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 	-moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 	-webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
@@ -1556,7 +1567,7 @@ img.storedirector {
 
 a.buttonForce {
     color: #fff;
-    background-color: #8b1e1a;
+    background-color: #043522;
     display: block;
     font-weight: normal;
     padding: 5px 10px;
@@ -1572,10 +1583,11 @@ a.buttonForce {
     -webkit-transition: all .5s ease;
     -o-transition: all .5s ease;
     -ms-transition: all .5s ease;
+	font-family: "Old Standard TT", Georgia, Serif;
 }
 a.buttonForce:hover {
-	background-color: #e6e6e6;
-	color: #000;
+	background-color: #e47937;
+	color: #fff;
 	-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 	-moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 	-webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
