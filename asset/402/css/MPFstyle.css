@@ -151,7 +151,7 @@ body.modal-open {
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
 }
-@media screen (max-width: 1199px) {
+@media (max-width: 1199px) {
 		.panel-default .panel-heading {
 	border-top-left-radius: 0px !important;
 	border-top-right-radius: 0px !important;
@@ -707,7 +707,6 @@ header .intro-text .intro-heading {
 .navbar-default {
 	background-color: rgba(228,121,55,.5);
     border-bottom: 10px solid #043522;
-}
 }
 
  @media(min-width:768px) {
