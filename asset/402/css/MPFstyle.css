@@ -151,6 +151,16 @@ body.modal-open {
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
 }
+@media screen (max-width: 1199px) {
+		.panel-default .panel-heading {
+	border-top-left-radius: 0px !important;
+	border-top-right-radius: 0px !important;
+}
+#mdf_menu ul li .mdf_sub_wrap,
+#mdf_menu ul li .dropdown{
+	border-bottom-left-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
+}
 .panel-title {
 	font-size: 1.5em;	
 }
@@ -335,7 +345,7 @@ div.intro-text a:link {
 }
 section#portfolio {
 	padding: 0px 15px;
-	margin: 0px 15px;
+	margin: 15px 15px;
 }
 div.errorpage {
 	margin-left: auto;
@@ -570,14 +580,16 @@ h5 {
 	border-color: rgba(255,255,255,.02);
 }
 .navbar-default .navbar-toggle {
-	border-color: #c2b69c;
-	background-color: #c2b69c;
+	border: none;
+	background-color: #043522;
+	margin-top: 14px !important;
+	margin-right: 12px !important;
 }
 .navbar-default .navbar-toggle .icon-bar {
 	background-color: #fff;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-	background-color: #8b1e1a;
+	background-color: #043522;
 }
 .navbar-default .nav li a {
 	/*text-transform: uppercase;*/
@@ -685,6 +697,18 @@ header .intro-text .intro-heading {
 	line-height: 50px;
 	text-shadow: 2px 2px 3px rgba(0, 0, 0,.9);
 }
+ @media(min-width:1200px) {
+	 header .intro-text .intro-heading {
+			margin-top: 100px; 
+	 }
+ }
+
+.navbar-default {
+	background-color: rgba(228,121,55,.5);
+    border-bottom: 10px solid #043522;
+}
+}
+
  @media(min-width:768px) {
 header .intro-text {
 	padding-top: 300px;
@@ -699,16 +723,14 @@ header .intro-text .intro-lead-in {
 	opacity: 0.8;
 }
 header .intro-text .intro-heading {
-	margin-bottom: 50px;
 	text-transform: none;
 	font-family: Lobster, "Old Standard TT", Georgia, serif;
 	font-size: 90px;
-	font-weight: 700;
-	line-height: 75px;
+	line-height: 0px;
 	text-shadow: -2px 2px 4px #000000;
 	color: rgba(255,255,255,.8);
 	position: relative;
-	top: -50px;
+	top: -125px;
 }
 #insideHeader .container .Inside-intro-text {
 	padding-top: 300px;
@@ -732,7 +754,6 @@ header .intro-text .intro-heading {
 }
 }
 section {
-	padding: 10px 0;
 	background-color: #ffffff;
 	color: #666;
 }

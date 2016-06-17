@@ -92,8 +92,7 @@ a.navbar-brand img{
 	padding-left: 20px;
 }
 #mdf_menu ul li.active > a{
-	background: #f8f8f8;
-	color: #25363d;
+	background: transparent;
 }
 #mdf_menu .dropdown,
 .mdf_fall{
@@ -459,11 +458,7 @@ input{
 			height: auto;
 		}
 		
-		a.navbar-brand img {
-		height: 36px !important;
-		width: 200px !important;
-		margin-top: 9px !important;
-	}
+		
 	}
 @media only screen and (max-width: 1206px){
 	#mdf_menu ul {
