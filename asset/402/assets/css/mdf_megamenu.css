@@ -157,6 +157,11 @@ a.navbar-brand img{
 	color: #e47937;
 	padding-left: 25px !important;
 }
+#mdf_menu div.mdf_sub_wrap a:hover i,
+#mdf_menu ul.mdf_child_menu a:hover i{
+	padding-left: 0px !important;
+}
+
 .mdf_flip{
 	height: auto;
 	transform-origin: center top 0px; 
