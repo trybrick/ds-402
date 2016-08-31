@@ -158,12 +158,12 @@ a.navbar-brand img{
 	transition: .3s all ease;	
 }
 
-#mdf_menu div.mdf_sub_wrap li:hover,
-#mdf_menu ul.mdf_child_menu li:hover{
+#mdf_menu div.mdf_sub_wrap li:hover a,
+#mdf_menu ul.mdf_child_menu li:hover a{
 	color: #e47937 !important;
 }
-#mdf_menu div.mdf_sub_wrap a.link:hover,
-#mdf_menu ul.mdf_child_menu a.link:hover{
+#mdf_menu div.mdf_sub_wrap li:hover a.link:hover,
+#mdf_menu ul.mdf_child_menu li: hover a.link:hover{
 	padding-left: 25px !important;
 }
 
