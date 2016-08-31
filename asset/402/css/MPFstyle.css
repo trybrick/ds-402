@@ -14,6 +14,10 @@
 	display: none;	
 }
 
+table.calendar h3 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
 /* Feeder */
 
 #feed_wrapper.blog li > a div {
