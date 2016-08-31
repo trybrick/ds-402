@@ -138,6 +138,9 @@ col-md-6 ng-scope {
 	section#portfolio {
 		margin: 0px !important;	
 	}
+	.navbar-default {
+		background-color: rgba(228,121,55,1);
+	}
 }
 /*   You may resume your regularly scheduled styling below this line  */
 
