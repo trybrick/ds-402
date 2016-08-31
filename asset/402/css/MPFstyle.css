@@ -506,11 +506,17 @@ a:hover, a:focus, a:active, a.active {
 	/*color: #8b1e1a;*/
 	color: #630502;
 }
-h1, h2, h3, h4, h6 {
+h1, h3, h6 {
 	font-family: Lobster;
 	font-weight: normal;
 	font-size: 1.8em;
 }
+h2, h4 {
+	font-family: "Old Standard TT", Georgia, Serif;
+	font-weight: normal;
+	font-size: 1.8em;
+}
+
 h5 {
 	font-family: Lobster;
 	font-weight: normal;
