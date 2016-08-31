@@ -152,9 +152,13 @@ a.navbar-brand img{
 #mdf_menu ul.mdf_child_menu.dropdown a{
 	display: block;
 }
+
 #mdf_menu div.mdf_sub_wrap a.link:hover,
 #mdf_menu ul.mdf_child_menu a.link:hover{
 	color: #e47937;
+}
+#mdf_menu div.mdf_sub_wrap a.link span:hover,
+#mdf_menu ul.mdf_child_menu a.link span:hover{
 	padding-left: 25px !important;
 }
 
