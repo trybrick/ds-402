@@ -153,8 +153,8 @@ a.navbar-brand img{
 	display: block;
 }
 
-#mdf_menu div.mdf_sub_wrap a.link:hover,
-#mdf_menu ul.mdf_child_menu a.link:hover{
+#mdf_menu div.mdf_sub_wrap li:hover,
+#mdf_menu ul.mdf_child_menu li:hover{
 	color: #e47937;
 }
 #mdf_menu div.mdf_sub_wrap a.link span:hover,
