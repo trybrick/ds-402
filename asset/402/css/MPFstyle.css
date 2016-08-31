@@ -506,6 +506,13 @@ a:hover, a:focus, a:active, a.active {
 	/*color: #8b1e1a;*/
 	color: #630502;
 }
+
+h4.panel-title {
+	font-family: Lobster;
+	font-weight: normal;
+	font-size: 1.4em;	
+}
+
 h1, h3, h6 {
 	font-family: Lobster;
 	font-weight: normal;
