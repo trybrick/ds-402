@@ -139,7 +139,7 @@ col-md-6 ng-scope {
 		margin: 0px !important;	
 	}
 	.navbar-default {
-		background-color: rgba(228,121,55,1);
+		background-color: rgba(228,121,55,1) !important;
 	}
 }
 /*   You may resume your regularly scheduled styling below this line  */
@@ -165,14 +165,13 @@ body.modal-open {
 	border-top-right-radius: 5px;
 }
 @media (max-width: 1199px) {
-		.panel-default .panel-heading {
-	border-top-left-radius: 0px !important;
-	border-top-right-radius: 0px !important;
 }
 #mdf_menu ul li .mdf_sub_wrap,
 #mdf_menu ul li .dropdown{
 	border-bottom-left-radius: 0px !important;
 	border-bottom-right-radius: 0px !important;
+	border-top-left-radius: 0px !important;
+	border-top-right-radius: 0px !important;
 }
 }
 .panel-title {
