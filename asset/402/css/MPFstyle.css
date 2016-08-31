@@ -2,6 +2,15 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
+#mdf_menu .menu-el > a:hover, #mdf_menu .menu-el:hover > a {
+	border-top-left-radius: 0px !important;
+	border-top-right-radius: 0px !important;
+}
+#mdf_menu .mdf_child_menu li {
+	border-bottom-left-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;	
+}
+
 
 /* Feeder */
 
