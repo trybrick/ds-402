@@ -354,11 +354,6 @@ a.navbar-brand img{
 	margin-right: 0!important;
 	margin-left: 0!important;
 }
-#mdf_menu i[class*=icon],
-#mdf_menu .fa,
-#mdf_menu .glyphicon{
-	margin-right: 5px;
-}
 .cl-title{
 	text-align: center;
 	margin: 7px 0;
