@@ -51,7 +51,7 @@ h1 {
 /*  Large screen fixes  */
 
 @media only screen and (min-width: 1679px) {
-div.mdf_subwrap.mdf_flip.row.lists {
+.mdf_flip {
 	max-width: 1150px;
 	margin-left: 293px !important;	
 }
