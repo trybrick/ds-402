@@ -51,6 +51,10 @@ h1 {
 /*  Large screen fixes  */
 
 @media only screen and (min-width: 1679px) {
+div.mdf_subwrap.mdf_flip.row.lists {
+	max-width: 1150px;
+	margin-left: 293px !important;	
+}
 p#InnerTop {
 	background-color: #fff;
 	position: relative;
@@ -674,6 +678,8 @@ h5 {
 	background-image: -o-linear-gradient(left, #eeeeee, #cecece, #eeeeee);
 }
  @media(min-width:1207px) {
+	
+	 
 .row.smheader {
 	margin-top: 20%;
 }
