@@ -2,6 +2,13 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
+ 
+strong {
+	font-family: "Old Standard TT", Georgia, serif;
+	font-weight: 700;
+	font-size: 1.1em;	
+}
+ 
 #mdf_menu .menu-el > a:hover, #mdf_menu .menu-el:hover > a {
 	border-top-left-radius: 0px !important;
 	border-top-right-radius: 0px !important;
