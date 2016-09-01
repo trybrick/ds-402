@@ -1614,6 +1614,8 @@ img.storedirector {
 	margin-top: -5px;
 	text-transform: capitalize;
 	color: #000000;
+	font-family: 'Old Standard TT';
+	font-weight: bold;
 }
 .storeservices_modul p {
 	margin-left: 10px;
