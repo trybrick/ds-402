@@ -352,7 +352,7 @@ a.navbar-brand img{
 }
 #mdf_menu .row{
 	margin-right: 0!important;
-	margin-left: 0!important;
+	margin-left: 0;
 }
 .cl-title{
 	text-align: center;
