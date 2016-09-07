@@ -41,7 +41,7 @@ strong {
 }
 
 table.calendar h3 {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif; !important;
 }
 
 /* Feeder */
@@ -547,8 +547,8 @@ a:hover, a:focus, a:active, a.active {
 
 h4.panel-title {
 	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-	font-weight: normal;
-	font-size: 1.4em;	
+	font-weight: bold;
+	font-size: .9em;	
 }
 
 h1, h3, h6 {
@@ -667,10 +667,10 @@ h5 {
 .navbar-default .nav li a {
 	/*text-transform: uppercase;*/
 	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-	font-weight: bold;
+	font-weight: normal;
 	/*letter-spacing: 0.5px;*/
 	color: #fff;
-	font-size:1.1em;
+	font-size:.9em;
 }
 .navbar-default .nav li a:hover, .navbar-default .nav li a:focus {
 	outline: 0;
@@ -1179,6 +1179,7 @@ img::selection {
 }
 body {
 	webkit-tap-highlight-color: #fed136;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 
 
