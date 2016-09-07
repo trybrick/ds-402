@@ -12,7 +12,7 @@ div.portfolio-item img {
 }
 
 strong {
-	font-family: "Old Standard TT", Georgia, serif;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 	font-weight: 700;
 	font-size: 1.1em;	
 }
@@ -314,7 +314,7 @@ svg#myFlyer {
 .nav-tabs li a {
 	background-color: #e6e6e6;
 	color: #555;
-	font-family: "Old Standard TT", Georgia, serif;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 .nav-tabs li a:hover {
 	background-color: #e47937;
@@ -546,24 +546,24 @@ a:hover, a:focus, a:active, a.active {
 }
 
 h4.panel-title {
-	font-family: Lobster;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 	font-weight: normal;
 	font-size: 1.4em;	
 }
 
 h1, h3, h6 {
-	font-family: Lobster;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 	font-weight: normal;
 	font-size: 1.8em;
 }
 h2, h4 {
-	font-family: "Old Standard TT", Georgia, Serif;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 	font-weight: normal;
 	font-size: 1.8em;
 }
 
 h5 {
-	font-family: Lobster;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 	font-weight: normal;
 }
 .img-centered {
@@ -577,7 +577,7 @@ h5 {
 }
 .btn-primary {
 	border-color: #fed136;
-	font-family: "Old Standard TT", Georgia, Serif;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 	font-weight: 700;
 	color: #fff;
 	background-color: #fed136;
@@ -625,7 +625,7 @@ h5 {
 	padding: 20px 40px;
 	border-radius: 3px;
 	text-transform: uppercase;
-	font-family: "Old Standard TT", Georgia, Serif;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 	font-size: 18px;
 	font-weight: 500;
 	color: #fff;
@@ -642,7 +642,7 @@ h5 {
 	background-size: 100% 100%;
 }
 .navbar-default .navbar-brand {
-	font-family: "Old Standard TT", Georgia, Serif;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 	font-weight: 700;
 	color: #333333;
 }
@@ -666,7 +666,7 @@ h5 {
 }
 .navbar-default .nav li a {
 	/*text-transform: uppercase;*/
-	font-family: "Old Standard TT", Georgia, Serif;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 	font-weight: bold;
 	/*letter-spacing: 0.5px;*/
 	color: #fff;
@@ -758,7 +758,7 @@ header .intro-text {
 }
 header .intro-text .intro-lead-in {
 	margin-bottom: 25px;
-	font-family: "Old Standard TT", Georgia, serif;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 	font-size: 22px;
 	line-height: 22px;
 	text-shadow: 1px 1px 2px rgba(0, 0, 0,1);
@@ -766,7 +766,7 @@ header .intro-text .intro-lead-in {
 header .intro-text .intro-heading {
 	margin-bottom: 25px;
 	text-transform: none;
-	font-family: Lobster, "Old Standard TT", Georgia, serif;
+	font-family: "Old Standard TT", Georgia, serif;
 	font-size: 50px;
 	font-weight: 700;
 	line-height: 50px;
@@ -790,7 +790,7 @@ header .intro-text {
 }
 header .intro-text .intro-lead-in {
 	margin-bottom: 25px;
-	font-family: "Old Standard TT", Georgia, serif;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 	font-size: 40px;
 	line-height: 40px;
 	text-shadow: -2px 2px 4px #000000;
@@ -798,7 +798,7 @@ header .intro-text .intro-lead-in {
 }
 header .intro-text .intro-heading {
 	text-transform: none;
-	font-family: Lobster, "Old Standard TT", Georgia, serif;
+	font-family: "Old Standard TT", Georgia, serif;
 	font-size: 90px;
 	line-height: 0px;
 	text-shadow: -2px 2px 4px #000000;
@@ -812,7 +812,7 @@ header .intro-text .intro-heading {
 }
 #insideHeader .container .Inside-intro-text .intro-lead-in {
 	/*margin-bottom: 25px;*/
-	font-family: "Old Standard TT", Georgia, serif;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 	font-size: 40px;
 	line-height: 40px;
 	text-shadow: -2px 2px 4px #000000;
@@ -820,7 +820,7 @@ header .intro-text .intro-heading {
 }
 #insideHeader .container .Inside-intro-text .intro-heading {
 	margin-bottom: 50px;
-	font-family: "Old Standard TT", Georgia, serif;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 	font-size: 75px;
 	font-weight: 700;
 	line-height: 75px;
@@ -840,7 +840,7 @@ section h2.section-heading {
 section h3.section-subheading {
 	margin-bottom: 75px;
 	text-transform: none;
-	font-family: "Old Standard TT", Georgia, serif;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 	font-size: 16px;
 	font-style: italic;
 	font-weight: 400;
@@ -1046,7 +1046,7 @@ footer {
 	text-align: center;
 	background-color: #043522;
 	color: #fff;
-	font-family: "Old Standard TT", Georgia, serif;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 footer span.copyright {
 	text-transform: uppercase;
@@ -1378,7 +1378,7 @@ a.button {
 	-webkit-transition: all .5s ease;
 	-o-transition: all .5s ease;
 	-ms-transition: all .5s ease;
-	font-family: "Old Standard TT", Georgia, Serif;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 	font-weight:bold;
 	font-size: 1.1em;
 }
@@ -1545,7 +1545,7 @@ h1.Cob-section-heading {
 	-webkit-text-shadow: 4px 4px 5px rgb(0, 0, 0);
 	text-transform: none;
 	opacity: 0.8;
-	font-family: Lobster;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 h1.Cob-section-heading2 {
 	position: relative;
@@ -1557,7 +1557,7 @@ h1.Cob-section-heading2 {
 	-webkit-text-shadow: 4px 4px 5px rgb(0, 0, 0);
 	text-transform: none;
 	opacity: 0.8;
-	font-family: Lobster;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 h1.Cob-section-heading2a {
 	position: relative;
@@ -1569,7 +1569,7 @@ h1.Cob-section-heading2a {
 	-webkit-text-shadow: 4px 4px 5px rgb(0, 0, 0);
 	text-transform: none;
 	opacity: 0.8;
-	font-family: Lobster;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 h1.Cob-section-heading_small {
 	position: relative;
@@ -1581,7 +1581,7 @@ h1.Cob-section-heading_small {
 	-webkit-text-shadow: 4px 4px 5px rgb(0, 0, 0);
 	text-transform: none;
 	opacity: 0.8;
-	font-family: Lobster;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 h4.about-heading {
 	position: relative;
@@ -1591,7 +1591,7 @@ h4.about-heading {
 	-moz-text-shadow: 2px 2px 1px rgb(0, 0, 0);
 	-webkit-text-shadow: 2px 2px 1px rgb(0, 0, 0);
 	opacity: 0.8;
-	font-family: "Old Standard TT", Georgia, serif;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 h4.about-heading_small {
 	position: relative;
@@ -1601,7 +1601,7 @@ h4.about-heading_small {
 	-moz-text-shadow: 2px 2px 1px rgb(0, 0, 0);
 	-webkit-text-shadow: 2px 2px 1px rgb(0, 0, 0);
 	opacity: 0.8;
-	font-family: "Old Standard TT", Georgia, serif;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 .DesktopDownArrow {
 	display: inline;
@@ -1637,7 +1637,7 @@ img.storedirector {
 	margin-top: -5px;
 	text-transform: capitalize;
 	color: #000000;
-	font-family: 'Old Standard TT';
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 	font-weight: bold;
 }
 .storeservices_modul p {
@@ -1682,7 +1682,7 @@ a.buttonForce {
     -webkit-transition: all .5s ease;
     -o-transition: all .5s ease;
     -ms-transition: all .5s ease;
-	font-family: "Old Standard TT", Georgia, Serif;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 	font-weight:bold;
 	font-size: 1.1em;
 }
