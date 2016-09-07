@@ -1217,6 +1217,8 @@ body {
 	opacity: .9;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif !important;
+	font-size: .9em;
 }
 #socialBar a {
 	color: #fff;
