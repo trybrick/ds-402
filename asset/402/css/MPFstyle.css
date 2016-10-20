@@ -3,6 +3,7 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+
 img {
 	border-radius: 15px;	
 }
@@ -74,13 +75,21 @@ h1 {
 	}
 }
 
+
+.mdf_flip {
+	max-width: 750px;
+}
+
+@media only screen and (min-width: 1200px) {
+	.mdf_flip {
+	margin-left: 287px !important;	
+}	
+}
+
 /*  Large screen fixes  */
 
 @media only screen and (min-width: 1679px) {
-.mdf_flip {
-	max-width: 1150px;
-	margin-left: 293px !important;	
-}
+
 p#InnerTop {
 	background-color: #fff;
 	position: relative;
