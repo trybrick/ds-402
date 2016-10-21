@@ -3,11 +3,23 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-i.toggle {
+div.panel-body i.toggle {
 	font-size: 2em;
 	padding: 15px 0 0 0;
 	transition: all .5s ease;
 	color:#e47937;	
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px transparent;
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+}
+
+div.panel-body i.toggle:hover, div.panel-body i.toggle:focus, div.panel-body i.toggle:active {
+	transform: scale(1.2);
+	transition-timing-function: cubic-bezier (.47,2.02,.31,-0.36);
 }
 
 img {
