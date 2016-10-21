@@ -3,6 +3,12 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+i.toggle {
+	font-size: 2em;
+	padding: 15px 0 0 0;
+	transition: all .5s ease;
+	color:#e47937;	
+}
 
 img {
 	border-radius: 15px;	
