@@ -83,10 +83,10 @@ a.navbar-brand img{
 }
 #mdf_menu .menu-el > a:hover,
 #mdf_menu .menu-el:hover > a{
-	background: #043522;
-	color: #fff;
-	border-top-left-radius: 15px;
-	border-top-right-radius: 15px;
+	background: #fff;
+	color: #043522;
+	/* border-top-left-radius: 15px; */
+	/* border-top-right-radius: 15px; */
 	border-bottom-left-radius: 0px;
 	border-bottom-right-radius: 0px;
 	padding-left: 20px;
@@ -215,9 +215,9 @@ a.navbar-brand img{
 }
 #mdf_menu ul li .mdf_sub_wrap,
 #mdf_menu ul li .dropdown{
-	background: #043522;
-	border-bottom-left-radius:15px;
-	border-bottom-right-radius: 15px;
+	background: #fff;
+	/* border-bottom-left-radius:15px; */
+	/* border-bottom-right-radius: 15px; */
 }
 #mdf_menu ul li:hover .dropdown,
 #mdf_menu ul li:hover .mdf_fall{
