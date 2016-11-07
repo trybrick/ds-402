@@ -22,20 +22,7 @@ a:hover{
 	padding-right: 20px;
 	padding-left: 7px;
 }
-#mdf_menu .has-sub:after{
-	/*content:"\e259";*/
-	position: absolute;
-	font-size: 0.7em;
-	font-family: "Glyphicons Halflings";
-	margin-left: 3px;
-}
-.has-drop:after{
-	content:"\e258";
-	position: absolute;
-	font-size: 0.7em;
-	font-family: "Glyphicons Halflings";
-	right: 2px;
-}
+
 #mdf_menu{
 	/*max-width: 1170px;*/
 	height: auto;
@@ -252,8 +239,6 @@ a.navbar-brand img{
 #mdf_menu .mdf_child_menu.sub-2,
 .dropdown{
 	background: ##043522;
-	border-bottom-left-radius:15px;
-	border-bottom-right-radius: 15px;
 }
 .mdf_child_menu.sub-0,
 .mdf_child_menu.sub-1,
