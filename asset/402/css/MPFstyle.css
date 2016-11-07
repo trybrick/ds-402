@@ -97,7 +97,8 @@ h1 {
 
 @media only screen and (min-width: 1200px) {
 	.mdf_flip {
-	margin-left: 287px !important;	
+	margin-left: 396px !important;
+	border: 0;	
 }	
 }
 
