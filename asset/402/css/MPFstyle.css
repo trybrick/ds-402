@@ -563,13 +563,14 @@ a, a:hover, a:focus, a:active, a.active {
 	outline: 0;
 }
 a {
-	color: #8b1e1a;
+	color: #043522;
 	text-decoration: none;
 	font-weight: bold;
+	transition: all .5s ease;
+	-webkit-transition: all .5s ease;
 }
 a:hover, a:focus, a:active, a.active {
-	/*color: #8b1e1a;*/
-	color: #630502;
+	color: #e47937;
 }
 
 h4.panel-title {
