@@ -66,7 +66,7 @@
             data-ng-swipe-right="vm.pageIdx = (vm.pageIdx <= 1) ? vm.pageIdx = vm.circular.Pages.length : vm.pageIdx - 1"
             data-ng-swipe-left="vm.pageIdx = (vm.pageIdx >= vm.circular.Pages.length) ? 1 : vm.pageIdx + 1">
           <div data-ng-repeat="item in vm.page.Items"
-            class="myContent"
+            class="myContent" style="display: none" data-ng-show="vm.loadCount > 0"
             data-ui-event="{'mouseover': 'vm.activeItem = item', 'mouseout': 'vm.activeItem = null'}"
             data-ng-class="{'active': vm.activeItem.ItemId == item.ItemId }"
             data-ng-click="vm.activeItem = item"
