@@ -22,20 +22,7 @@ a:hover{
 	padding-right: 20px;
 	padding-left: 7px;
 }
-#mdf_menu .has-sub:after{
-	/*content:"\e259";*/
-	position: absolute;
-	font-size: 0.7em;
-	font-family: "Glyphicons Halflings";
-	margin-left: 3px;
-}
-.has-drop:after{
-	content:"\e258";
-	position: absolute;
-	font-size: 0.7em;
-	font-family: "Glyphicons Halflings";
-	right: 2px;
-}
+
 #mdf_menu{
 	/*max-width: 1170px;*/
 	height: auto;
@@ -74,7 +61,7 @@ a.navbar-brand img{
 	padding: 0;
 }
 #mdf_menu .menu-el > a{
-	color: #333333;
+	color: #fff;
 	transition: all 0.32s;
 	-webkit-transition: background 0.35s, color 0.4s;
 	-moz-transition: background 0.35s, color 0.4s;
@@ -83,14 +70,16 @@ a.navbar-brand img{
 }
 #mdf_menu .menu-el > a:hover,
 #mdf_menu .menu-el:hover > a{
-	background: #f8f8f8;
-	color: #25363d;
-	border-radius: 0;
+	background: #fff;
+	color: #043522;
+	/* border-top-left-radius: 15px; */
+	/* border-top-right-radius: 15px; */
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
 	padding-left: 20px;
 }
 #mdf_menu ul li.active > a{
-	background: #f8f8f8;
-	color: #25363d;
+	background: transparent;
 }
 #mdf_menu .dropdown,
 .mdf_fall{
@@ -141,20 +130,30 @@ a.navbar-brand img{
 #mdf_menu div.mdf_sub_wrap a,
 #mdf_menu ul.mdf_child_menu li a{
 	display: inline-block;
-	-webkit-transition: color 0.4s, background 0.3s ease-in;
-	-moz-transition: color 0.4s, background 0.3s ease-in;
-	-ms-transition: color 0.4s, background 0.3s ease-in;
-	-o-transition: color 0.4s, background 0.3s ease-in;
-	transition: color 0.4s, background 0.3s ease-in;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-ms-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
 }
 #mdf_menu ul.mdf_child_menu.dropdown a{
 	display: block;
 }
-#mdf_menu div.mdf_sub_wrap a:hover,
-#mdf_menu ul.mdf_child_menu a:hover{
-	color: #C2B69C;
-	background: #8b1e1a;
+
+#mdf_menu div.mdf_sub_wrap li,
+#mdf_menu ul.mdf_child_menu li{
+	transition: .3s all ease;	
 }
+
+#mdf_menu div.mdf_sub_wrap li:hover a,
+#mdf_menu ul.mdf_child_menu li:hover a{
+	color: #e47937 !important;
+}
+#mdf_menu div.mdf_sub_wrap li:hover a.link,
+#mdf_menu ul.mdf_child_menu li:hover a.link{
+	padding-left: 25px !important;
+}
+
 .mdf_flip{
 	height: auto;
 	transform-origin: center top 0px; 
@@ -203,7 +202,9 @@ a.navbar-brand img{
 }
 #mdf_menu ul li .mdf_sub_wrap,
 #mdf_menu ul li .dropdown{
-	background: #f8f8f8;
+	background: #fff;
+	/* border-bottom-left-radius:15px; */
+	/* border-bottom-right-radius: 15px; */
 }
 #mdf_menu ul li:hover .dropdown,
 #mdf_menu ul li:hover .mdf_fall{
@@ -226,8 +227,9 @@ a.navbar-brand img{
 }
 #mdf_menu .mdf_child_menu li{
 	display: block;
-	color: #444;
-	border-bottom:#CCC; border-bottom-style:solid; border-bottom-width:thin;
+	color: #fff;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
 }
 #mdf_menu .mdf_child_menu li a:not(.thumbnail){
 	padding: 8px 15px;
@@ -236,7 +238,7 @@ a.navbar-brand img{
 #mdf_menu .mdf_child_menu.sub-1,
 #mdf_menu .mdf_child_menu.sub-2,
 .dropdown{
-	background: #f8f8f8
+	background: ##043522;
 }
 .mdf_child_menu.sub-0,
 .mdf_child_menu.sub-1,
@@ -335,12 +337,7 @@ a.navbar-brand img{
 }
 #mdf_menu .row{
 	margin-right: 0!important;
-	margin-left: 0!important;
-}
-#mdf_menu i[class*=icon],
-#mdf_menu .fa,
-#mdf_menu .glyphicon{
-	margin-right: 5px;
+	margin-left: 0;
 }
 .cl-title{
 	text-align: center;
@@ -427,6 +424,7 @@ a.navbar-brand img{
 }
 input{
         top: 0px!important;
+		border-radius:5px;
 }
 .tabs.vertical{
     float: none;
@@ -450,11 +448,7 @@ input{
 			height: auto;
 		}
 		
-		a.navbar-brand img {
-		height: 36px !important;
-		width: 200px !important;
-		margin-top: 9px !important;
-	}
+		
 	}
 @media only screen and (max-width: 1206px){
 	#mdf_menu ul {
@@ -507,9 +501,6 @@ input{
 	}
 	#mdf_menu ul li.menu-el .dropdown .mdf_child_menu{
 		padding-left: 15px
-	}
-	#mdf_menu ul li .mdf_child_menu li:hover{
-		background: #ddd;
 	}
 	.has-drop{
 		border-bottom: 1px solid #ddd;
