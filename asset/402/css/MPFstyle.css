@@ -1744,15 +1744,15 @@ a.noFocus:focus {
 }
 /* PayPal Button */
 .PayPalbtn-info {
-	color: #000;
-	background-color: #c2b69c;
-	border-color: #b1a68e;
+	color: #fff;
+	background-color: #043522;
+	border-color: #043522;
 	font-weight: bold;
 }
 .PayPalbtn-info:hover, .PayPalbtn-info:focus, .PayPalbtn-info.focus, .PayPalbtn-info:active, .PayPalbtn-info.active, .open>.dropdown-toggle.btn-info {
 	color: #fff;
-	background-color: #8b1e1a;
-	border-color: #630502;
+	background-color: #e47937;
+	border-color: #e47937;
 }
 p#start {
 	padding-left: 50px;
@@ -1764,7 +1764,7 @@ p#start {
 	border-style: solid;
 	border-width: thin;
 	padding: 10px;
-	border-color: #c2b69c;
+	border-color: #043522;
 }
 /* Video Page */
 
