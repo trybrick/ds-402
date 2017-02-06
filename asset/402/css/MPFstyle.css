@@ -3,6 +3,10 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+.dcircular-caption {
+	font-size: .6em;	
+}
+
 div.panel-body i.toggle {
 	font-size: 2em;
 	padding: 5px 5px;
@@ -39,7 +43,7 @@ strong {
 	border-bottom-left-radius: 0px;
 	border-bottom-right-radius: 0px;	
 }
-/* Apparently we don't want rounded corners because whatever Holly says goes. >.<
+/* 
 
 @media (min-width:1200px) {
 #mdf_menu .menu-el > a:hover, #mdf_menu .menu-el:hover > a {
