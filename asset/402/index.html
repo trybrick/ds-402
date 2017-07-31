@@ -40,9 +40,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script>
   googletag.cmd.push(function() {
     googletag.defineSlot('/94606675/MPF-CircularMOBILE', [320, 50], 'div-gpt-ad-1501259378763-0').addService(googletag.pubads());
-    googletag.defineSlot('/94606675/MPF-CircularSidebar', [[300, 250], [300, 600], [320, 50]], 'div-gpt-ad-1501259378763-1').addService(googletag.pubads());
+    googletag.defineSlot('/94606675/MPF-CircularSidebar', [[300, 250], [300, 600], [320, 50]], 'div-gpt-ad-1501259378763-1').setTargeting('refresh').addService(googletag.pubads());
     googletag.pubads().enableSingleRequest();
     googletag.enableServices();
+	googletag.display('div-gpt-ad-1501259378763-1');
+	setInterval(function(){googletag.pubads().refresh([slot1]);}, 30000);
   });
 </script>
 <!-- End Google DFP -->
