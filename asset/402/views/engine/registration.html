@@ -23,7 +23,7 @@ $('a[href^="#"]').on('click', function(event) {
 
 });</script>
 <!-- bootstrap Javascript -->
-<script type="text/javascript" src="http://cdn-stg.brickinc.net/asset/75/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://cdn-stg.brickinc.net/asset/75/js/bootstrap.min.js"></script>
 <!-- end -->
 <style type="text/css">
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
@@ -52,7 +52,12 @@ Sign Up Today!</h1>
 
 <div class="registrationWrapper">
 <div data-ctrl-Registration="" class="col-md-12">
-<p id="InnerTop">Get store promotions, digital offers, event details and many other exciting deals. Registering also allows you to save your shopping list on our Weekly Deals page and recipe's from our Recipe Center.</p>
+<p id="InnerTop"><img class="img img-responsive" style="max-width:800px; margin-left:auto;margin-right:auto;" src="https://upload.brickinc.net/chainfiles/402/creative/201802/636553462907070259-030418_mpf-email.jpg" />
+</p>
+<p>
+Don't miss another minute of our exciting promotions AND if you sign up in March, you'll get a chance to win a $100 Marketplace Foods Gift Card!<br />
+<small>Winner will be chosen at random on April 2nd, 2018.</small>
+</p>
   <h3  data-ng-hide="isLoggedIn">Fill Out the Registration Form Below</h3>
 
   <div class="FormWaist">
@@ -109,7 +114,7 @@ Sign Up Today!</h1>
           <p data-ng-show="myForm.confirmPassword.$error.validator">* Confirm password must match.</p>
         </div>
         <div class="form-group" data-gsn-ft-config="rewardcard">
-          <div data-ng-if="item.Description" data-ng-include="'http://clientapi.brickinc.net/api/v1/content/meta/' + gsnApi.getChainId() + '/?name=home page&meta=rewardcard&type=text/html'"></div>
+          <div data-ng-if="item.Description" data-ng-include="'https://clientapi.brickinc.net/api/v1/content/meta/' + gsnApi.getChainId() + '/?name=home page&meta=rewardcard&type=text/html'"></div>
         </div>
       </div>
     </div>
