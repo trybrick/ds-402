@@ -1,23 +1,24 @@
 <div class="hidden-meta" data-gsn-title="{{ChainName}} | circulars"></div>
 <div style="padding:15px !important;" class="col-md-12" data-ctrl-circular="" data-ng-init="isListView = (currentPath.indexOf('list') > 0 || currentPath.indexOf('text') > 0)">
 
+<ul class="nav-pills" style="font-size:.8em;float:right;background:#fff !important;">
+  
+  <li>
+    <a style="margin-bottom:0;" target="_blank" class="btn-default moreicon" href="https://morerewards.app.link"><img alt="Login to your MORE Rewards account" src="https://upload.brickinc.net/chainfiles/129/creative/201807/636669252543548929-morerewards.png" /></a>
+  </li>
+  <li>
+    <a style="margin-bottom:0;" target="_blank" class="btn-default moreicon" href="https://morerewards.app.link/?loc-key=BZIALERT11&BirdziShopper=%7B%22Launch%22:%22MyOffers%22%7D"><img alt="Browse 100s of Digital Coupons" src="https://upload.brickinc.net/chainfiles/129/creative/201807/636669252507456266-morerebates.png" /></a></a>
+  </li>
+  <li>
+  <a style="margin-bottom:0;" target="_blank" class="btn-default moreicon" href="https://www.celebratemore.com"><img alt="Get Inspired" src="https://upload.brickinc.net/chainfiles/129/creative/201807/636669252472769874-celebratemore.png" /></a>
+  </li>
+  </ul>
+
 <ul class="nav nav-tabs" style="padding-top: 5px">
 <li class="active">
     <a class="btn-default" href="/circular">Weekly Ads</a>
   </li>
 
-<ul class="nav-pills" style="font-size:.8em;">
-  
-  <li>
-    <a target="_blank" class="btn-default" href="https://morerewards.app.link">MORE Rewards</a>
-  </li>
-  <li>
-    <a target="_blank" class="btn-default" href="https://morerewards.app.link/?loc-key=BZIALERT11&BirdziShopper=%7B%22Launch%22:%22MyOffers%22%7D">MORE Rebates</a>
-  </li>
-  <li>
-  <a target="_blank" class="btn-default" href="https://www.celebratemore.com">CelebrateMORE.com</a>
-  </li>
-  </ul>
   </ul>
   
   <div data-ng-show="vm.noCircular">
@@ -134,6 +135,16 @@ border-bottom-right-radius: 5px;" class="btn btn-default" type="submit">
 <style>
 .circularItem img {
   width: auto;
+}
+
+.moreicon {
+	width:40px;
+	height:40px;
+	transition: all .5s ease;
+	-webkit-transition: all .5s ease;	
+}
+.moreicon:hover {
+	width: 50px;	
 }
 
 @media(max-width: 767px){
