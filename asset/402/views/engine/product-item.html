@@ -1,8 +1,8 @@
-<div class="col-md-2" data-ng-init="item.LinkedItem = getBindableItem(item)">
+<!-- <div class="col-md-2" data-ng-init="item.LinkedItem = getBindableItem(item)">
   <input type="text" name="userQuantity{{$index}}" data-ng-model="item.LinkedItem.NewQuantity" style="width: 35px">
   <button class="btn btn-default btn-xs" data-ng-click="updateBindableItem(item.LinkedItem)" data-ng-show="isOnList(item)">Update</button>
   <button class="btn btn-default btn-xs" data-ng-click="doToggleCartItem($event, item, item.LinkedItem)">{{ isOnList(item) && "Remove" || "Add"}}</button>
-</div>
+</div> -->
 <div class="col-md-2">
   <img data-selector=".productImagePopOver" data-ng-src="{{item.SmallImageUrl  || getThemeUrl('/images/no_image.jpg')}}" alt="[Product Image]" style="max-width: 40px; max-height: 40px" data-gsn-popover="" />
 </div>
@@ -15,4 +15,7 @@
 
 <div class="col-md-3 product-search-price" data-ng-if="item.PriceString">
   {{item.PriceString}}
+</div>
+<div>
+<small><a target="blank" href="https://morerewards.app.link">Log in</a> to your MORE Rewards account to create your shopping list</small>
 </div>
