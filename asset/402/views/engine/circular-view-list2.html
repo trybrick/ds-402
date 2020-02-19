@@ -1,8 +1,8 @@
 <div class="hidden-meta" data-gsn-title="{{ChainName}} | circulars"></div>
-<div style="padding:15px !important;" class="col-md-12" data-ctrl-circular="" data-ng-init="isListView = (currentPath.indexOf('list') > 0 || currentPath.indexOf('text') > 0)">
+<div style="padding:15px !important;" class="col-md-12" data-ctrl-circular-new="" data-ng-init="isListView = (currentPath.indexOf('list') > 0 || currentPath.indexOf('text') > 0)">
 
 <ul class="nav-pills" style="font-size:.8em;float:right;background:#fff !important;">
-  
+
   <li>
     <a style="margin-bottom:0;" class="moreicon" href="https://morerewards.app.link"><img alt="Login to your MORE Rewards account" src="https://upload.brickinc.net/chainfiles/129/creative/201807/636669252543548929-morerewards.png" /></a>
   </li>
@@ -20,7 +20,7 @@
   </li>
 
   </ul>
-  
+
   <div data-ng-show="vm.noCircular">
     <h3>No circular for this store.</h3>
   </div>
@@ -46,20 +46,11 @@
             <a href="javascript:void(0)" data-ng-click="toggleSort('CategoryName');sortByName='Department'">Department</a>
           </li>
           <li>
-            <a href="javascript:void(0)" data-ng-click="toggleSort('BrandName');sortByName='Brand'">Brand</a>
-          </li>
-          <li>
             <a href="javascript:void(0)" data-ng-click="toggleSort('Description');sortByName='Alphabetic'">Alphabetic</a>
           </li>
         </ul>
       </div>
     </div>
-    <datalist id="departments">
-      <option value="{{item.key}}" data-bindonce="" data-ng-repeat="item in vm.categories">
-    </datalist>
-    <datalist id="brands">
-      <option value="{{item.key}}" data-bindonce="" data-ng-repeat="item in vm.brands">
-    </datalist>
     <div class="col-md-12">
       <form name="circularSearch" class="input-group pull-right" data-ng-submit="gvm.searchActive = false">
         <input style="margin-top:15px; height:32px;" type="text" class="form-control" placeholder="Search for..." data-ng-model="vm.filterBy">
@@ -87,7 +78,6 @@ border-bottom-right-radius: 5px;" class="btn btn-default" type="submit">
   <div class="col-md-12">
    <div data-infinite-scroll="loadMore()">
       <div data-ng-repeat-start="item in allItems" data-ng-class="{ '': $index == 0 || allItems[$index-1][sortBy] != item[sortBy] }">
-      
         <div data-ng-if="$index == 0 || allItems[$index-1][sortBy] != item[sortBy]">
           <div style="clear:both;"></div>
          <div class="panel panel-default">
@@ -95,8 +85,6 @@ border-bottom-right-radius: 5px;" class="btn btn-default" type="submit">
             <h4 class="panel-title">{{item[sortBy]}}</h4>
             </div>
           </div>
-                    
-
         </div>
       </div>
       <div class="col-md-6 items thumbnail" itemscope itemtype="http://schema.org/Product">
@@ -121,8 +109,8 @@ border-bottom-right-radius: 5px;" class="btn btn-default" type="submit">
        <div class="col-md-1 col-xs-3">
           <button class="btn btn-default btn-xs pull-right" data-ng-click="doToggleCircularItem($event, item)">{{ isOnList(item) && "REMOVE" || "ADD ITEM"}}</button>
         </div>
-        
-     
+
+
       <div>
       <div style="clear:both;"></div>
         <div class="pull-right">{{allItems.length}} of {{vm.cacheItems.length}}</div>
