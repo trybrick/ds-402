@@ -9,10 +9,13 @@ $(function() {
     });
 });
 
+/*
+Tom.N - commented out 2-22-2020 (scrollspy was removed somehow, sometime ago result in error)
+
 // Highlight the top nav as scrolling occurs
 $('body').scrollspy({
     target: '.navbar-fixed-top'
-})
+})*/
 
 // Closes the Responsive Menu on Menu Item Click
 /*
